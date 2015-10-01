@@ -1,4 +1,4 @@
-FuzzBuzz
+FizzBuzz
 
 數字可以被3整除時為Fizz
 數字可以被5整除時為Buzz
