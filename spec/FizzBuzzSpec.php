@@ -39,4 +39,9 @@ class FizzBuzzSpec extends ObjectBehavior
     function it_可以改變數字的結果，當給15時，結果為FizzBuzz(){
         $this->parseFizzBuzz(15)->shouldReturn('FizzBuzz');
     }
+
+    function it_可以給最大值，會得到1到最大值的FizzBuzz陣列()
+    {
+        $this->getFizzBuzzArray(10)->shouldReturn(['1', '2', 'Fuzz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz']);
+    }
 }
