@@ -2,9 +2,8 @@
 
 class FuzzBuzz
 {
-    public function parseFuzzBuzz($argument1)
+    public function parseFuzzBuzz($number)
     {
-        // TODO: write logic here
-        return 1;
+        return $number;
     }
 }

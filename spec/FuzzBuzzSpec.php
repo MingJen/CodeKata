@@ -16,7 +16,11 @@ class FuzzBuzzSpec extends ObjectBehavior
         $this->parseFuzzBuzz(1)->shouldReturn(1);
     }
 
-     function it_可以改變數字的結果，當給2時，結果為2(){
+    function it_可以改變數字的結果，當給2時，結果為2(){
         $this->parseFuzzBuzz(2)->shouldReturn(2);
+    }
+
+    function it_可以改變數字的結果，當給3時，結果為Fuzz(){
+        $this->parseFuzzBuzz(3)->shouldReturn('Fuzz');
     }
 }
