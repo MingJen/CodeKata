@@ -4,6 +4,11 @@ class FuzzBuzz
 {
     public function parseFuzzBuzz($number)
     {
-        return $number;
+    	if($number%3==0){
+    		return 'Fuzz';
+    	}else{
+    		return $number;
+    	}
     }
+        
 }
